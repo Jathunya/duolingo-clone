@@ -7,6 +7,15 @@ const ButtonsPage = () => {
         <Button>Default</Button>
         <Button variant="primary">primary</Button>
         <Button variant="primaryOutline">primary outline</Button>
+        <Button variant="secondary">Secondary</Button>
+        <Button variant="secondaryOutline">Secondary outline</Button>
+        <Button variant="danger">Danger</Button>
+        <Button variant="dangerOutline">Danger outline</Button>
+        <Button variant="super">Super</Button>
+        <Button variant="superOutline">Super outline</Button>
+        <Button variant="ghost">Ghost</Button>
+        <Button variant="sidebar">Sidebar</Button>
+        <Button variant="sidebarOutline">Sidebar Outline</Button>
     </div>
   )
 }
