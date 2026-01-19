@@ -1,0 +1,17 @@
+import { cn } from '@/lib/utils'
+import React from 'react'
+
+type Props = {
+    className?: string
+}
+
+const Sidebar = ({className}: Props) => {
+  return (
+    <div className={cn(
+        'flex bg-blue-500 h-full lg:fixed left-0 top-0 px-4 border-r-2 flex-col',
+        className,
+    )}>Sidebar</div>
+  )
+}
+
+export default Sidebar

@@ -42,7 +42,7 @@ export default function Home() {
           <SignedIn>
               <Button size="lg" variant="secondary"
               className="w-full asChild">
-                <Link href="/Learn">
+                <Link href="/learn">
                 Continue Learning
                 </Link>
               </Button>

@@ -26,8 +26,8 @@ const Header = () => {
       <SignedOut>
         <SignInButton
           mode="modal"
-          forceRedirectUrl="/Learn"
-          signUpForceRedirectUrl="/Learn"
+          forceRedirectUrl="/learn"
+          signUpForceRedirectUrl="/learn"
         >
           <Button size="lg" variant="ghost">
             Login
