@@ -9,6 +9,7 @@ import {
 } from '@clerk/nextjs'
 import { Nunito } from 'next/font/google'
 import './globals.css'
+import { Toaster } from '@/components/ui/sonner'
 
 const font = Nunito({
   variable: '--font-geist-sans',
@@ -47,6 +48,7 @@ export default function RootLayout({
               <UserButton />
             </SignedIn>
           </header> */}
+          <Toaster/>
           {children}
         </body>
       </html>
